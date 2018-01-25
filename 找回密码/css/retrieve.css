@@ -1,0 +1,183 @@
+body{
+	overflow-x: hidden;
+}
+#top{
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+#top>nav>div:nth-of-type(2){
+	color: #fe7b00;
+	font-size: 30px;
+}
+#top>nav>div:nth-of-type(2) div{
+	float: right;
+	/*display: inline-block;*/
+	/*background-color: pink;*/
+	text-align: right;
+	line-height: 127px;
+}
+#top>nav>div:nth-of-type(2) .iconfont{
+	font-size: 35px;
+	padding-right: 8px;
+	
+}
+#center{
+	padding: 0px;
+	margin-bottom: 50px;
+}
+.retrieve-top{
+	height: 50px;
+	width: 100%;
+	line-height: 50px;
+	background-color: #f0f4f3;
+	border: 1px solid #e1e5e4;
+}
+.retrieve-top span{
+	display:block;
+	width: 1300px;
+	margin: auto;
+	font-size: 16px;
+	color: #007AC8;
+}
+.retrieve-top span a{
+	color: #007AC8;
+}
+.retrieve-content{
+	display: flex;
+	width: 1300px;
+	margin: auto;
+	margin-top: 40px;
+}
+.retrieve-content-left{
+	margin-top: 50px;
+	width: 178px;
+	
+}
+.retrieve-content-left div{
+	margin-top: 30px;
+	/*background-color: #fe7e00;*/
+	
+	
+}
+.retrieve-content-right{
+	height: 530px;
+	border: 1px solid #E1E5E4;
+	flex: 10;
+	width: 100%;
+	
+	
+}
+.retrieve-content-right ul{
+	width: 450px;
+	margin: auto;
+	padding: 40px 0;
+	border-top:1px dashed #E1E5E4 ;
+}
+.retrieve-content-right ul:first-child{
+	margin-top: 40px;
+	border: 0px solid;
+}
+.retrieve-content-right .retrieve-content-right-yanzheng li{
+	display: flex;
+	margin-bottom: 15px;
+	/*align-items: center;*/
+	line-height: 40px;
+}
+.retrieve-content-right2 ul:first-child{
+	margin-top: 0;
+}
+.retrieve-content-right2{
+	display: none;
+}
+.retrieve-content-right .retrieve-content-right-yanzheng li label{
+	width: 90px;
+	text-align: right;
+	
+}
+.retrieve-content-right .retrieve-content-right-yanzheng li input{
+	flex: 10;
+	height: 40px;
+	padding-left: 10px;
+}
+.retrieve-content-right .retrieve-content-right-yanzheng li div{
+	width: 160px;
+	background-color: #93d4e7;
+	color: #fff;
+	line-height:41px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+}
+.retrieve-content-right .retrieve-content-right-yanzheng .yzm{
+	width: 100px;
+}
+.retrieve-content-right .retrieve-content-right-yanzheng button{
+	flex: 10;
+	height: 40px;
+	border: 1px solid #007AC8;
+	background-color:#007AC8 ;
+	color: #fff;
+	font-size: 18px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.retrieve-content-right .retrieve-content-right-hint{
+	color: #818080;
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+}
+/*箭头样式*/
+.jt{
+	display: flex;
+	cursor: pointer;
+	
+}
+.jt:before {
+	display: inline-block;
+	content: "";
+	width: 0;
+	height: 0;
+	/*border-left: 44px solid transparent;*/
+	/*border-right: 44px solid transparent;*/
+	/*border-bottom: 88px solid red;*/
+	border-top: 25px solid #cfcfcf;
+	border-bottom: 25px solid #cfcfcf;
+	border-left: 30px solid transparent;
+	/*padding-top: 20px;*/
+	float: left;
+}
+.jt span{
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	font-size: 18px;
+	padding: 0 20px;
+	background-color: #cfcfcf;
+	display: inline-block;
+	float: left;
+}
+.active span{
+	background-color: #fe7e00;
+}
+.active:before {
+	border-top: 25px solid #fe7e00;
+	border-bottom: 25px solid #fe7e00;
+	border-left: 30px solid transparent;
+}
+
+@media screen and (max-width: 1300px) {
+	#center {
+		width: 1300px;
+	}
+	#top {
+		width: 1300px;
+	}
+	#bottom {
+		width: 1300px;
+	}
+	body {
+		overflow: scroll;
+	}
+}

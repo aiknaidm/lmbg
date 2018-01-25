@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<!--<link rel="stylesheet" type="text/css" href="css/list.css" />-->
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/help.css"/>
+		<link rel="stylesheet" type="text/css" href="css/helpzh.css"/>
+		<script src="js/jquery1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div id="top">
+			<nav>
+				<div><span></span><img src="img/logo.png" /></div>
+				<div>
+					<div></div>
+					<div>
+						<ul>
+							<li>
+								<a href="#">登陆</a>
+							</li>
+							<li>
+								<a href="#">注册</a>
+							</li>
+							<li>
+								<a href="#">交易管理</a>
+							</li>
+							<li>
+								<a href="#">帮哥地图</a>
+							</li>
+							<li>
+								<a href="#">帮助中心</a>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="#">首页</a>
+							</li>
+							<li>
+								<a href="#yh" id="yh">用户服务</a>
+							</li>
+							<li>
+								<a href="#bg" id="bg">帮哥加盟</a>
+							</li>
+							<li>
+								<a href="#bz">服务保障</a>
+							</li>
+							<li>
+								<a href="#zbg">如何找帮哥</a>
+							</li>
+							<li>
+								<a href="#">关于我们</a>
+							</li>
+							<li>
+								<a href="#">品牌直营</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<div style="" id="banner">
+				<img src="img/helpb.jpg"/>
+				<li>
+					<input type="" name="" id="" value="" /><button>搜索</button>
+				</li>
+		</div>
+		<div id="center">
+			<div class="left">
+				<ul>
+					<li class="left1">常见问题</li>
+					<li>账号相关</li>
+					<li>订单相关</li>
+					<li>支付相关</li>
+					<li>退款和投诉</li>
+					<li>师傅相关</li>
+					<li class="left1">意见反馈</li>
+					<li >我要留言</li>
+				</ul>
+			</div>
+			<div class="right">
+				<form class="form1">
+					<ul>
+						<li><em></em>我要留言</li>
+						<li>
+							页面没有想要的信息？操作还不够人性？有更好的建议和想法？欢迎您随时提出来。我们会不断优化和改善，努力为您带来更好的用户体验，感谢您的支持，谢谢！
+						</li>
+						<li><span><i>*</i>您的建议：</span><textarea placeholder="请留下您宝贵的建议及意见，您的建议将是我们巨大的财富"></textarea></li>
+						<li><span>&nbsp;您的手机：</span><input type="text" placeholder="请留下您的联系方式，方便我们及时反馈"/></li>	
+						<li><span><i>*</i>您的邮箱：</span><input type="text" placeholder="请输入常用邮箱地址"/></li>	
+						<li><span></span><button>提交</button></li>	
+						
+					</ul>
+				</form>
+			</div>
+		</div>
+		<div id="bottom">
+			<div>
+				<!--<img src="img/bottom.jpg"/>-->
+				<div><img src="img/logo2.jpg"></div>
+				<div>
+					<ul>
+						<li>
+							<span>首页</span>
+							<span>用户服务</span>
+							<span>帮哥加盟</span>
+							<span>服务保障</span>
+							<span>如何找帮哥    </span>
+							<span>关于我们</span>
+							<span>品牌直营  </span>
+						</li>
+						<li>
+							<span>&copy; 蓝帽帮哥 版权所有</span>
+							<span>地址：山东省青岛市 黄岛区 中电光谷软件园 ICP备案号证书号：黑ICP备14005123号-1 </span>
+						</li>
+						<li>客服电话：0532-88888888</li>
+					</ul>
+				</div>
+				<div>
+					<img src="img/app.jpg" />
+				</div>
+			</div>
+		</div>
+	</body>
+<script>
+	$(document).ready(function(){
+		var isadd=true;
+		$(".add").click(function(){
+			
+//			$(this).parent().children("em").html("-");
+			if(isadd){
+				$(this).parent().children("em").html("-");
+				$(this).parent().children(".helplist").css("display","block");
+			}else{
+				$(this).parent().children("em").html("+");
+				$(this).parent().children(".helplist").css("display","none");
+			}
+			isadd=!isadd;
+		})
+	})
+</script>
+</html>

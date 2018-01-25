@@ -1,0 +1,301 @@
+.right3 {
+	font-size: 20px;
+	flex: 10;
+}
+
+.rz>div {
+	/*width: 1300px;*/
+	margin: auto;
+	/*border-top: 3px solid #007AC8;*/
+	border-bottom: 1px solid #C4C4C4;
+}
+
+.rz span {
+	display: inline-block;
+}
+
+.rz span {
+	color: #454544;
+}
+
+.rz span:nth-of-type(3),
+.rz span:nth-of-type(4),
+.rz span:nth-of-type(5) {
+	color: #959494;
+	font-size: 14px;
+}
+
+.rz span:nth-of-type(3) a,
+.rz span:nth-of-type(4) a,
+.rz span:nth-of-type(5) a {
+	color: #959494;
+	font-size: 14px;
+}
+
+.rz span:nth-of-type(3) a:hover,
+.rz span:nth-of-type(4) a:hover,
+.rz span:nth-of-type(5) a:hover {
+	color: #454544;
+}
+
+.xjt {
+	width: 0px;
+	height: 0px;
+	border: 8px solid transparent;
+	margin: auto;
+	border-left-color: #007AC8;
+	margin-top: 5px;
+	position: relative;
+	left: 8px;
+}
+
+.rznr {
+	/*width: 1300px;*/
+	margin: auto;
+}
+
+.rznr a {
+	color: #535353;
+}
+
+.rznr li {
+	height: 50px;
+	border-bottom: 1px dashed #e2e2e2;
+	line-height: 50px;
+	color: #7c7c7c;
+	padding-left: 10px;
+	font-size: 14px;
+}
+
+.rznr li span {
+	display: inline-block;
+	width: 200px;
+	height: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.rznr {
+	width: 100%;
+	margin: auto;
+}
+
+.rznr li:first-child {
+	margin-top: 10px;
+}
+
+.rznr li span {
+	display: inline-block;
+	padding-right: 10px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #7C7C7C;
+}
+
+.rznr li span a i {
+	float: right;
+	padding-right: 15px;
+}
+
+.rznr li span a {
+	color: #7C7C7C;
+}
+
+.rznr li span a:hover {
+	color: #333331;
+}
+
+.rznr li:nth-of-type(even) {
+	background-color: #fafafa;
+}
+
+.fenye {
+	/*width: 1300px;*/
+	height: 223px;
+	text-align: center;
+	line-height: 223px;
+	margin: auto;
+}
+
+.fenye li {
+	border: 1px solid #e2e2e2;
+	color: #999999;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	display: inline-block;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.xyy {
+	border: 1px solid #e2e2e2;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	display: inline-block;
+	cursor: pointer;
+	cursor: hand;
+	background-color: #999999;
+	color: white;
+}
+
+.fenye .active {
+	background-color: #007AC8;
+	color: white;
+}
+
+.news div:nth-of-type(2) {
+	/*width: 1300px;*/
+	margin: auto;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.news div:nth-of-type(2) h4 {
+	display: inline-block;
+	height: 116px;
+	width: 100%;
+	border-bottom: 1px solid #c4c4c4;
+	line-height: 150px;
+	font-size: 25px;
+	font-weight: initial;
+	color: #7c7c7c;
+}
+
+.news h4 {
+	margin: 0px;
+	padding: 0px;
+}
+
+.news li:nth-of-type(2) {
+	text-align: left;
+	padding: 35px;
+	padding-top: 20px;
+	font-size: 16px;
+	color: #535353;
+	line-height: 30px;
+}
+
+.news li:nth-of-type(1) {
+	/*text-align: left;
+	padding: 35px;
+	padding-top: 20px;
+	font-size: 16px;
+	color: #535353;*/
+	line-height: 40px;
+	border-bottom: 1px solid #C4C4C4;
+	color: #535353;
+}
+
+.news li:nth-of-type(2) p {
+	text-indent: 32px;
+}
+
+.news .centertitle:nth-of-type(1) {
+	margin-top: 30px;
+	height: auto;
+	text-align: left;
+	line-height: 30px;
+	text-indent: 32px;
+	margin-bottom: 30px;
+	border: 0px solid;
+}
+
+.img {
+	height: 150px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	padding-top: 128px;
+}
+
+.img img {
+	width: 2000px;
+	height: 355px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	margin-top: -178px;
+	margin-left: -1000px;
+}
+
+#center {
+	display: block;
+	overflow: hidden;
+}
+
+#center .left {
+	float: left;
+}
+
+#center .right3 {
+	width: 1000px;
+	float: left;
+}
+
+.crumbs {
+	float: right;
+	font-size: 14px;
+}
+
+.t1 {
+	line-height: 58px;
+}
+
+#center .left2 {
+	padding: 0px;
+	margin: 0px;
+}
+
+#center .left .left2:hover:hover {
+	background-color: #fff;
+	color: #535353;
+	cursor: pointer;
+}
+
+#center .left .left2:hover a {
+	background-color: #fff;
+	color: #535353;
+	cursor: pointer;
+}
+
+#center .left>ul>li:last-child {
+	/*padding-left: 0px;
+	padding-bottom: 14px;
+	line-height: ;*/
+	line-height: 48px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#center .left .left2>ul {
+	position: relative;
+	left: -10px;
+	display: none;
+}
+
+#center #jishu {
+	width: 100%;
+	line-height: 40px;
+	display: inline-block;
+}
+
+#center .left .left2>ul>li {
+	border-bottom: 1px solid #E4E4E4;
+	padding-left: 10px;
+}
+
+#center .left .left2>ul>li:first-child {
+	border-top: 0px solid;
+}
+
+#center .left .left2>ul>li:last-child {
+	border-bottom: 0px solid;
+}

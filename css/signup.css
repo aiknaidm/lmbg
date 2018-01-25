@@ -1,0 +1,154 @@
+body{
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+#top{
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+#top>nav>div:nth-of-type(2){
+	
+	color: #fe7b00;
+	font-size: 30px;
+}
+#top>nav>div:nth-of-type(2) div{
+	float: right;
+	/*display: inline-block;*/
+	/*background-color: pink;*/
+	text-align: right;
+	line-height: 127px;
+}
+#top>nav>div:nth-of-type(2) .iconfont{
+	font-size: 35px;
+	padding-right: 8px;
+	
+}
+#center{
+	width: 100%;
+	background-color: #15e18a;
+	height: 100%;
+	position: relative;
+	/*display: flex;*/
+	padding: 0px;
+	
+}
+#center>div{
+	width: 1300px;
+	height: 523px;
+	margin: auto;
+	background-color: #fff;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	margin-top: -260px;
+	margin-left: -650px;
+	display: flex;
+}
+.tishi{
+	color: red;
+	padding-left: 10px;
+}
+#center>div>div:first-child{
+	flex: 1;
+}
+#center>div div:first-child ul{
+	padding: 30px;
+}
+#center>div div:first-child ul>li{
+	margin-bottom: 20px;
+	font-size: 14px;
+	color: #484848;
+}
+#center>div div:first-child ul>li a{
+	color: #FE7E00;
+}
+#center>div div:first-child ul>li input[type=text],#center>div div:first-child ul>li input[type=password]{
+	width: 345px;
+	height: 38px;
+	padding-left: 10px;
+	border: 1px solid #e4e7e8;
+	
+}
+#center>div div:first-child ul>li select{
+	width: 358px;
+	height: 38px;
+	padding-left: 10px;
+	border: 1px solid #e4e7e8;
+	line-height: 38px;
+	color: #BFBFBF;
+}
+#center>div div:first-child ul>li select option{
+	color: #666;
+}
+#center>div div:first-child ul>li input::-webkit-input-placeholder{
+	color: #bfbfbf;
+}
+#center>div>div:first-child ul>li>span:first-child{
+	display: inline-block;
+	width: 70px;
+	text-align: right;
+	padding-right: 10px;
+	
+}
+#center>div>div:first-child ul>li:first-child{
+	font-size: 24px;
+	margin-top: 5px;
+	color: #FE7E00;
+	
+}
+#center>div>div:first-child ul>li:last-child button{
+	display: inline-block;
+	width: 345px;
+	height: 40px;
+	border: 0px solid;
+	background-color: #FE7E00;
+	font-size: 24px;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 10px;
+	cursor: pointer;
+}
+#center>div>div:last-child{
+	flex: 1;
+}
+#center>div>div:last-child img{
+	width: 100%;
+	height: 100%;
+}
+#bottom{
+	position: relative;
+	z-index: 3;
+}
+#center .wxlogin{
+	width: 60%;
+	margin: auto;
+}
+@media screen and (max-height: 930px){
+	body{
+		display: block!important;
+		overflow: scroll;
+	}
+	#center{
+		height: 640px;
+	}
+	
+}
+@media screen and (max-width: 1300px){
+
+	#center{
+		width: 1300px;
+	}
+	#top{
+		width: 1300px;
+	}
+	#bottom{
+		width: 1300px;
+	}
+	body{
+
+		overflow: scroll;
+	}
+}

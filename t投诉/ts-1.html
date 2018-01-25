@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<!--<link rel="stylesheet" type="text/css" href="css/list.css" />-->
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css" />
+		
+		<link rel="stylesheet" type="text/css" href="css/upimg.css" />
+		<link rel="stylesheet" type="text/css" href="css/jygl.css" />
+		<script src="js/jquery1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div id="top2">
+			<nav>
+				<ul>
+					<li><img src="img/bglogo.png" /></li>
+					<li>
+						<a href="#">首页</a>
+					</li>
+					<li>
+						<a href="#yh" id="yh">订单管理</a>
+					</li>
+					<li>
+						<a href="#bg" id="bg">我的钱包</a>
+					</li>
+					<li>
+						<a href="#bz">消息中心</a>
+					</li>
+				</ul>
+				<ul>
+					<li><i></i>发布任务找帮哥</li>
+					<li>
+						<span class="touxiang">
+							<img src="img/11111.jpg"/>
+						</span>
+						<span>
+									<div>用户名</div>
+									<div><a href="#">【退出】</a></div>
+								</span>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<div id="center">
+			<div>
+				<ul class="left">
+					<li>我的蓝帽帮哥</li>
+					<li>
+						<ul style="list-style: square;">
+							<li>交易管理</li>
+							<li class="active">
+								<a href="myorder.html">我的订单</a>
+							</li>
+							<li>
+								<a href="comment.html">评价管理</a>
+							</li>
+							<li>
+								<a href="#">投诉管理</a>
+							</li>
+							<li>
+								<a href="#">退款管理</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>我的钱包</li>
+							<li>
+								<a href="#">钱包余额</a>
+							</li>
+							<li>
+								<a href="#">服务保证金</a>
+							</li>
+							<li>
+								<a href="#">钱包密码</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>账号管理</li>
+							<li>
+								<a href="mydata.html">基本资料</a>
+							</li>
+							<li>
+								<a href="upimg.html">个人头像</a>
+							</li>
+							<li>
+								<a href="safe.html">安全设置</a>
+							</li>
+							<!--<li>
+								<a href="#">账号绑定</a>
+							</li>-->
+							<li>
+								<a href="information.html">我的消息</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="ts">
+					<li class="t1"><em></em>发起投诉</li>
+					<li class="ts-c">
+						<div class="ts-title">
+							<span>投诉需要证据，请勿恶意重复提交！一个订单里每个师傅仅可以投诉一次。网站将收到信息进行调查核实并给出相应的处理结果。</span>
+							<span>（注意：务必提交完整并真实的证据，证据不足可能影响最终投诉结果判定。）</span>
+							
+						</div>
+						<div class="ts-liucheng">
+								<div class="ts-liucheng-list">
+									<i class="icon iconfont active">&#xe615;</i>
+									<i>申请投诉</i>
+								</div>
+								<div class="ts-liucheng-list">
+									<i class="icon iconfont">&#xe615;</i>
+									<i>等待处理</i>
+								</div>
+								<div class="ts-liucheng-list">
+									<i class="icon iconfont">&#xe615;</i>
+									<i>处理完成</i>
+								</div>
+								<div class="lianxian">
+									<span class="active"></span>
+									<span></span>
+								</div>
+							</div>
+						<form>
+							<ul class="ts-formlist">
+								<li class="ts-formlist-title">
+									<span>我要投诉的师傅是：<i class="blue">2345</i></span>
+									<span>涉及单号：<i class="blue">12345456</i></span>
+								</li>
+								<li>请输入投诉的内容以便于我们更快的处理（必须填）</li>
+								<li><textarea placeholder="投诉的内容"></textarea></li>
+								<li class="ts-upimg">
+									<div class="width_auto">
+										<div id="container">
+											<!--头部，相册选择和格式选择-->
+											<div id="uploader">
+
+												<div class="item_container">
+													<div id="" class="queueList">
+														<div id="dndArea" class="placeholder">
+															<div id="filePicker"></div>
+															<div class="ts-upimg-tishi">(必传)做多上传五张，jpg，gif，jpeg，单张2M以内</div>
+														</div>
+													</div>
+												</div>
+												<div class="statusBar" style="display:none;">
+													<div class="progress">
+														<span class="text">0%</span>
+														<span class="percentage"></span>
+													</div>
+													<div class="info"></div>
+													<div class="btns">
+														<div id="filePicker2"></div>
+														<div class="uploadBtn">开始上传</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									<script src="js/webuploader.js"></script>
+									<script src="js/jquery.sortable.js"></script>
+									<script src="js/upload.js"></script>
+								</li>
+								<li class="ts-btn"><button>提交</button>提交前请仔细核查投诉内容，一旦提交无法修改</li>
+							</ul>
+						</form>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+		<div id="bottom">
+			<div>
+				<!--<img src="img/bottom.jpg"/>-->
+				<div><img src="img/logo2.jpg"></div>
+				<div>
+					<ul>
+						<li>
+							<span>首页</span>
+							<span>用户服务</span>
+							<span>帮哥加盟</span>
+							<span>服务保障</span>
+							<span>如何找帮哥    </span>
+							<span>关于我们</span>
+							<span>品牌直营  </span>
+						</li>
+						<li>
+							<span>&copy; 蓝帽帮哥 版权所有</span>
+							<span>地址：山东省青岛市 黄岛区 中电光谷软件园 ICP备案号证书号：黑ICP备14005123号-1 </span>
+						</li>
+						<li>客服电话：0532-88888888</li>
+					</ul>
+				</div>
+				<div>
+					<img src="img/app.jpg" />
+				</div>
+			</div>
+		</div>
+	</body>
+	<!--<script src="js/jygl.js"></script>-->
+	<!--<script src="js/upimg.js"></script>-->
+	<script>
+	</script>
+
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<!--<link rel="stylesheet" type="text/css" href="css/list.css" />-->
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/jygl.css" />
+		<script src="js/jquery1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div id="top2">
+			<nav>
+				<ul>
+					<li><img src="img/bglogo.png" /></li>
+					<li>
+						<a href="#">首页</a>
+					</li>
+					<li>
+						<a href="#yh" id="yh">订单管理</a>
+					</li>
+					<li>
+						<a href="#bg" id="bg">我的钱包</a>
+					</li>
+					<li>
+						<a href="#bz">消息中心</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#"><i></i>发布任务找帮哥</a>
+					</li>
+					<li>
+						<span class="touxiang">
+							<img src="img/11111.jpg"/>
+						</span>
+						<span>
+									<div>用户名</div>
+									<div><a href="#">【退出】</a></div>
+								</span>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<div id="center">
+			<div>
+				<ul class="left">
+					<li>我的蓝帽帮哥</li>
+					<li>
+						<ul style="list-style: square;">
+							<li>交易管理</li>
+							<li class="active">
+								<a href="myorder.html">我的订单</a>
+							</li>
+							<li>
+								<a href="comment.html">评价管理</a>
+							</li>
+							<li>
+								<a href="#">投诉管理</a>
+							</li>
+							<li>
+								<a href="#">退款管理</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>我的钱包</li>
+							<li>
+								<a href="#">钱包余额</a>
+							</li>
+							<li>
+								<a href="#">服务保证金</a>
+							</li>
+							<li>
+								<a href="#">钱包密码</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>账号管理</li>
+							<li>
+								<a href="#">基本资料</a>
+							</li>
+							<li>
+								<a href="#">个人头像</a>
+							</li>
+							<li>
+								<a href="#">安全设置</a>
+							</li>
+							<li>
+								<a href="#">账号绑定</a>
+							</li>
+							<li>
+								<a href="#">我的消息</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="right2">
+					<li class="t1"><em></em>我的订单</li>
+					<li>
+						<span>全部订单</span>
+						<span>待报价</span>
+						<span>待雇佣</span>
+						<span>待托管</span>
+						<span>待验收</span>
+						<span>待评价</span>
+					</li>
+
+					<li class="sousuo">
+						<form>
+							<span>客户信息：<input type=""/></span>
+							<span>订单号：<input type=""/></span>
+							<span>物流单号：<input type=""/></span>
+							<span><button class="sreach">搜索</button></span>
+						</form>
+					</li>
+
+					<li>
+						<span>
+							<select name="">
+								<option value="">近三个月订单</option>
+								<option value="">今年内订单</option>
+								<option value="">2016年订单</option>
+								<option value="">2015年订单</option>
+								<option value="">更早的订单</option>
+								
+							</select>
+						</span>
+						<span>
+							订单信息
+						</span>
+						<span>
+							订单金额
+						</span>
+						<span>
+							<select name="">
+								<option value="">已发布</option>
+								<option value="">已分派</option>
+								<option value="">已报价</option>
+								<option value="">已确认</option>
+								<option value="">服务中</option>
+								<option value="">服务完成</option>
+								<option value="">评价完成</option>
+								<option value="">退款/仲裁订单</option>
+							</select>
+						</span>
+						<span></span>
+					</li>
+					<li><span>合并订单</span><span>批量导出</span><span>共<i></i>条记录</span></li>
+					<li class="title">
+						<span>订单号</span>
+						<span>日期</span>
+						<span>服务商：xxxxxx<i class="red">（2天内未付款订单关闭）</i></span>
+
+					</li>
+					<li class="dingdan">
+						<span><input type="checkbox"/>维修
+							<div class="hui">（家具类）</div>
+						</span>
+						<span>
+							王冰
+							<div>青岛市黄岛区江山路116号</div>
+						</span>
+						<span>
+							￥120.00
+						</span>
+						<span class="zhuangtai">
+							待托管费用
+						</span>
+						<span>
+							<div>查看订单</div>
+							<div>托管费用</div>
+							<div>取消订单</div>
+						</span>
+					</li>
+					<li class="dingdan">
+						<span><input type="checkbox"/>维修
+							<div class="hui">（家具类）</div>
+						</span>
+						<span>
+							王冰
+							<div>青岛市黄岛区江山路116号</div>
+						</span>
+						<span>
+							￥120.00
+						</span>
+						<span class="zhuangtai">
+							待托管费用
+						</span>
+						<span>
+							<div>查看订单</div>
+							<div class="dingdan-btn"><a href="#">托管费用</a></div>
+							<div>取消订单</div>
+						</span>
+					</li>
+					<li class="title">
+						<span>订单号</span>
+						<span>日期</span>
+						<span>服务商：xxxxxx<i class="red">（2天内未付款订单关闭）</i></span>
+
+					</li>
+					<li class="dingdan">
+						<span><input type="checkbox"/>维修
+							<div class="hui" >（家具类）</div>
+						</span>
+						<span>
+							王冰
+							<div>青岛市黄岛区江山路116号</div>
+						</span>
+						<span>
+							￥120.00
+						</span>
+						<span class="zhuangtai">
+							待托管费用
+						</span>
+						<span>
+							<div>查看订单</div>
+							<div>托管费用</div>
+							<div class="dingdan-btn">取消订单</div>
+						</span>
+					</li>
+					<div class="pagination">
+						<li class="disabled fyleft"><span>«</span></li>
+						<li class="active"><span>1</span></li>
+						<li>
+							<a href="/lmbge/public/user/order/index.html?page=2">2</a>
+						</li>
+						<li>
+							<a href="/lmbge/public/user/order/index.html?page=3">3</a>
+						</li>
+						<li class="fyright">
+							<a href="/lmbge/public/user/order/index.html?page=2">»</a>
+						</li>
+					</div>
+
+				</ul>
+			</div>
+
+		</div>
+		<div id="bottom">
+			<div>
+				<!--<img src="img/bottom.jpg"/>-->
+				<div><img src="img/logo2.jpg"></div>
+				<div>
+					<ul>
+						<li>
+							<span>首页</span>
+							<span>用户服务</span>
+							<span>帮哥加盟</span>
+							<span>服务保障</span>
+							<span>如何找帮哥    </span>
+							<span>关于我们</span>
+							<span>品牌直营  </span>
+						</li>
+						<li>
+							<span>&copy; 蓝帽帮哥 版权所有</span>
+							<span>地址：山东省青岛市 黄岛区 中电光谷软件园 ICP备案号证书号：黑ICP备14005123号-1 </span>
+						</li>
+						<li>客服电话：0532-88888888</li>
+					</ul>
+				</div>
+				<div>
+					<img src="img/app.jpg" />
+				</div>
+			</div>
+		</div>
+	</body>
+	<script>
+	</script>
+
+</html>

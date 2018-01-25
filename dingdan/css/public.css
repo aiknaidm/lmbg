@@ -1,0 +1,242 @@
+html,
+body {
+	position: relative;
+	height: 100%;
+	/*background-color: #999;*/
+	/*overflow: hidden;*/
+	font-family: "微软雅黑";
+}
+.red{
+	color: red;
+}
+body {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+.font1{
+	color: #1a62a2;
+	font-weight: bold;
+}
+/*//顶部*/
+
+#top {
+	width: 100%;
+	background-color: rgba(255, 255, 255, 1);
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+#top>nav {
+	width: 1300px;
+	margin: auto;
+	height: 125px;
+	display: flex;
+}
+
+#top>nav>div:first-child {
+	flex: 1;
+}
+
+#top>nav>div:first-child img {
+	/*width: 90%;*/
+	height: 90%;
+}
+
+#top>nav>div:last-child {
+	flex: 5;
+	display: flex;
+}
+
+#top>nav>div:last-child>div {
+	flex: 4;
+	position: relative;
+}
+
+#top>nav>div:last-child>div:first-child {
+	flex: 1;
+}
+
+#top>nav>div:last-child>div>ul {
+	display: flex;
+}
+
+#top>nav>div:last-child>div>ul:first-child {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+#top>nav>div:last-child>div>ul:last-child li {
+	flex: 1;
+	text-align: right;
+	line-height: 125px;
+	/*background-color: red;*/
+	width: 125px;
+	font-size: 18px;
+}
+
+#top>nav>div:last-child>div>ul:first-child li {
+	padding: 8px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-top: 8px;
+	border-right: 1px solid #000;
+	font-size: 13px;
+	color: #686868;
+}
+#top>nav>div:last-child>div>ul:first-child li:last-child{
+	border-right: 0px solid #000;
+}
+#top>nav>div:last-child>div>ul:first-child li a {
+	color: #686868;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+#center{
+	padding-top: 127px;
+}
+#bottom{
+	width: 100%;
+	background-color:#353535 ;
+}
+#bottom>div{
+	margin: auto;
+	/*margin-top: 265px;*/
+	height: 170px;
+	background-color: #353535;
+	/*float: left;*/
+	width:1300px;
+	display: flex;
+	text-align: center;
+	
+}
+/*底部*/
+#bottom>div>div{
+	flex: 1;
+	/*float: left;*/
+}
+/*#bottom>div:*/
+#bottom>div>div:first-child{
+	line-height: 170px;
+	margin-top: 20px;
+	width: 207px;
+}
+#bottom>div>div:last-child{
+	line-height: 170px;
+	margin-top: 20px;
+}
+#bottom>div>div:nth-of-type(2){
+	flex: 3;
+	width: 900px;
+	/*background-color: red;*/
+	margin-top: 20px;
+}
+#bottom>div>div:nth-of-type(2) li:first-child span{
+	display: inline-block;
+	width: 100px;
+	font-size: 18px;
+	color: #fff;
+	line-height: 60px;
+	text-align: center;
+	
+}
+#bottom>div>div:nth-of-type(2) li:first-child{
+	border-bottom:1px solid #414141;
+}
+#bottom>div>div:nth-of-type(2) li:nth-of-type(2){
+	line-height: 50px;
+	font-size: 14px;
+	color: #fff;
+}
+#bottom>div>div:nth-of-type(2) li:nth-of-type(3){
+	/*line-height: 50px;*/
+	font-size: 20px;
+	color: #fe7e00;
+}
+#bottom a{
+	color: #fff;
+}
+/*个人中心头部*/
+#top2>nav{
+	width: 1300px;
+	display: flex;
+	margin: auto;
+}
+#top2{
+	background: url(../img/top2.jpg) 100% 100%;
+}
+#top2>nav>ul{
+	display: flex;
+	height: 90px;
+	
+}
+#top2>nav>ul:first-child li a{
+	display: inline-block;
+	padding-left: 35px;
+	padding-right: 35px;
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+}
+#top2>nav>ul:first-child li a:visited{
+	background-color: ;
+}
+#top2>nav>ul:last-child{
+	margin-left: 170px;
+}
+#top2>nav>ul:last-child li:first-child{
+	height: 50px;
+	width: 200px;
+	margin-top: 18px;
+	background-color: #fe7e00;
+	border-radius: 5px;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	cursor: pointer;
+}
+#top2>nav>ul:last-child li:last-child{
+	border-radius: 5px;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	font-size: 14px;
+	margin-left: 40px;
+	
+}
+#top2>nav>ul:last-child li:last-child span{
+	display: inline-block;
+	position: relative;
+	top:50%;
+	margin-top: -30px;
+}
+#top2>nav>ul:last-child li:last-child a{
+	color: #fff;
+}
+#top2>nav>ul:last-child li:last-child span div{
+	height: 30px;
+}
+#top2>nav>ul:last-child li:last-child span:last-child{
+	position: relative;
+	top: 35px;
+	left: 10px;
+}
+.touxiang{
+	width: 60px;
+	height: 60px;
+	border-radius: 90px;
+	overflow: hidden;
+	cursor: pointer;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="__TMPL__/public/assets/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="__TMPL__/public/assets/css/public.css" />
+		<link rel="stylesheet" type="text/css" href="__TMPL__/public/assets/font/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="__TMPL__/public/assets/css/news.css" />
+		<link rel="stylesheet" type="text/css" href="__TMPL__/public/assets/css/help.css" />
+		<link rel="stylesheet" type="text/css" href="__TMPL__/public/assets/css/news.css" />
+		<script src="__TMPL__/public/assets/js/jquery1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--<script src="http://api.map.baidu.com/api?v=2.0&ak=vtvyHwzGNKRHdkpwBgLtGUACHhZTf7ip" type="text/javascript"></script>-->
+	</head>
+
+	<body>
+		<include file="public@nav" />
+		<div class="img">
+			<img src="__TMPL__/public/assets/img/gywm.jpg" />
+		</div>
+		<div id="center">
+
+			<div class="left">
+				<ul>
+					<li>学院新闻</li>
+					<li>政策法规</li>
+					<li>行业消息</li>
+					<li class="left2" ><span id="jishu">技术指导</span>
+						<ul>
+							<li>水电工</li>
+							<li>木工</li>
+							<li>瓦工</li>
+							<li>油工</li>
+							<li>力工</li>
+							<li>家具美容</li>
+							<li>保洁</li>
+						</ul>
+					</li>
+					
+				</ul>
+			</div>
+			<div class="right3 news">
+				<div class=" rz">
+					<div class="t1">
+						<span class="xjt"></span>
+						<span >帮哥学院</span>
+						<div class="crumbs">
+							<span><a href="">帮哥学院</a></span>
+							<span>></span>
+							<span>xxxx</span>
+						</div>
+					</div>
+				</div>
+				<div>
+					<h4>刘强东说要用三个f搞得农村电商</h4>
+					<li>2015-0-0</li>
+					<li>
+						<p>
+							Node.js 使用事件驱动模型，当web server接收到请求，就把它关闭然后进行处理，然后去服务下一个web请求。 当这个请求完成，它被放回处理队列，当到达队列开头，这个结果被返回给用户。 这个模型非常高效可扩展性非常强，因为webserver一直接受请求而不等待任何读写操作。（这也被称之为非阻塞式IO或者事件驱动IO） 在事件驱动模型中，会生成一个主循环来监听事件，当检测到事件时触发回调函数。Node.js 使用事件驱动模型，当web server接收到请求，就把它关闭然后进行处理，然后去服务下一个web请求。 当这个请求完成，它被放回处理队列，当到达队列开头，这个结果被返回给用户。 这个模型非常高效可扩展性非常强，因为webserver一直接受请求而不等待任何读写操作。（这也被称之为非阻塞式IO或者事件驱动IO） 在事件驱动模型中，会生成一个主循环来监听事件，当检测到事件时触发回调函数。Node.js 使用事件驱动模型，当web server接收到请求，就把它关闭然后进行处理，然后去服务下一个web请求。 当这个请求完成，它被放回处理队列，当到达队列开头，这个结果被返回给用户。 这个模型非常高效可扩展性非常强，因为webserver一直接受请求而不等待任何读写操作。（这也被称之为非阻塞式IO或者事件驱动IO） 在事件驱动模型中，会生成一个主循环来监听事件，当检测到事件时触发回调函数。Node.js 使用事件驱动模型，当web server接收到请求，就把它关闭然后进行处理，然后去服务下一个web请求。 当这个请求完成，它被放回处理队列，当到达队列开头，这个结果被返回给用户。 这个模型非常高效可扩展性非常强，因为webserver一直接受请求而不等待任何读写操作。（这也被称之为非阻塞式IO或者事件驱动IO） 在事件驱动模型中，会生成一个主循环来监听事件，当检测到事件时触发回调函数。
+						</p>
+					</li>
+				</div>
+
+			</div>
+		</div>
+		<include file="public@footer" />
+	</body>
+	<!--<script src="js/map.js" type="text/javascript" charset="utf-8"></script>-->
+	<script>
+		$("#jishu").click(function(){
+			$(".left2 ul").fadeToggle(300)
+		})
+	</script>
+</html>

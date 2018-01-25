@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<!--<link rel="stylesheet" type="text/css" href="css/list.css" />-->
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/jygl.css" />
+		<script src="js/jquery1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div id="top2">
+			<nav>
+				<ul>
+					<li><img src="img/bglogo.png" /></li>
+					<li>
+						<a href="#">首页</a>
+					</li>
+					<li>
+						<a href="#yh" id="yh">订单管理</a>
+					</li>
+					<li>
+						<a href="#bg" id="bg">我的钱包</a>
+					</li>
+					<li>
+						<a href="#bz">消息中心</a>
+					</li>
+				</ul>
+				<ul>
+					<li><i></i>发布任务找帮哥</li>
+					<li>
+						<span class="touxiang">
+							<img src="img/11111.jpg"/>
+						</span>
+						<span>
+									<div>用户名</div>
+									<div><a href="#">【退出】</a></div>
+								</span>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<div id="center">
+			<div>
+				<ul class="left">
+					<li>我的蓝帽帮哥</li>
+					<li>
+						<ul style="list-style: square;">
+							<li>交易管理</li>
+							<li class="active">
+								<a href="#">我的订单</a>
+							</li>
+							<li>
+								<a href="#">评价管理</a>
+							</li>
+							<li>
+								<a href="#">投诉管理</a>
+							</li>
+							<li>
+								<a href="#">退款管理</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>我的钱包</li>
+							<li>
+								<a href="#">投诉管理</a>
+							</li>
+							<li>
+								<a href="#">服务保证金</a>
+							</li>
+							<li>
+								<a href="#">钱包密码</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>账号管理</li>
+							<li>
+								<a href="#">基本资料</a>
+							</li>
+							<li>
+								<a href="#">个人头像</a>
+							</li>
+							<li>
+								<a href="#">安全设置</a>
+							</li>
+							<li>
+								<a href="#">账号绑定</a>
+							</li>
+							<li>
+								<a href="#">我的消息</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="right">
+					<li>
+						<div>我的订单</div>
+						<div>
+							<ul>
+								<li>
+									<div class="c1">1</div>待报价</li>
+								<li>
+									<div class="c2">1</div>待雇佣师傅</li>
+								<li>
+									<div class="c3">1</div>待托管费用</li>
+								<li>
+									<div class="c4">1</div>待确认验收</li>
+								<li>
+									<div class="c5">1</div>待评价</li>
+							</ul>
+						</div>
+						<div>
+							<ul>
+								<li >
+									<div class="c1">0</div>待处理投诉</li>
+								<li >
+									<div class="c2">0</div>待申请退款</li>
+								<li >
+									<div class="c5">0</div>已同意退款</li>
+							</ul>
+						</div>
+					</li>
+					<li class="question">
+						<ul>
+							<li><em></em>热门问题</li>
+							<li>
+								<ul>
+									<li>如何在网站下单找师傅</li>
+									<li>如何在网站下单找师傅</li>
+									<li>如何在网站下单找师傅</li>
+									<li>如何在网站下单找师傅</li>
+									<li>如何在网站下单找师傅</li>
+								</ul>
+								<ul>
+									<li>如何在网站下单找师傅</li>
+									<li>如何在网站下单找师傅</li>
+									<li>如何在网站下单找师傅</li>
+									<li>如何在网站下单找师傅</li>
+									<li>如何在网站下单找师傅</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+		<div id="bottom">
+			<div>
+				<!--<img src="img/bottom.jpg"/>-->
+				<div><img src="img/logo2.jpg"></div>
+				<div>
+					<ul>
+						<li>
+							<span>首页</span>
+							<span>用户服务</span>
+							<span>帮哥加盟</span>
+							<span>服务保障</span>
+							<span>如何找帮哥    </span>
+							<span>关于我们</span>
+							<span>品牌直营  </span>
+						</li>
+						<li>
+							<span>&copy; 蓝帽帮哥 版权所有</span>
+							<span>地址：山东省青岛市 黄岛区 中电光谷软件园 ICP备案号证书号：黑ICP备14005123号-1 </span>
+						</li>
+						<li>客服电话：0532-88888888</li>
+					</ul>
+				</div>
+				<div>
+					<img src="img/app.jpg" />
+				</div>
+			</div>
+		</div>
+	</body>
+	<script>
+		$(document).ready(function() {
+			$(".left>ul>li").jquery
+			$(document).on('click', '.left>li>ul>li', function() {
+				$(".left>li>ul>li").removeClass("active");
+				$(this).attr("class", "active")
+			});
+		})
+	</script>
+
+</html>

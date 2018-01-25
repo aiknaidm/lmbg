@@ -1,0 +1,24 @@
+#center{
+	width: 1300px;
+	margin: auto;
+}
+#center p{
+	margin-top: 10px;
+	text-indent: 32px;
+	font-size: 16px;
+	line-height: 35px;
+	
+	
+}
+#center  ul{
+	text-indent: 32px;
+	font-size: 16px;
+	line-height: 35px;
+}
+#center h4{
+	text-align: right;
+	font-size: 16px;
+}
+#center a{
+	color: #007AC8;
+}

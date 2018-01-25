@@ -1,0 +1,318 @@
+body{
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+.tishi{
+	color: red;
+	margin-left: 10px;
+}
+#top{
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+#top>nav>div:nth-of-type(2){
+	
+	color: #fe7b00;
+	font-size: 30px;
+}
+#top>nav>div:nth-of-type(2) div{
+	float: right;
+	/*display: inline-block;*/
+	/*background-color: pink;*/
+	text-align: right;
+	line-height: 127px;
+}
+#top>nav>div:nth-of-type(2) .iconfont{
+	font-size: 35px;
+	padding-right: 8px;
+	
+}
+#center{
+	width: 100%;
+	background-color: #0b96e6;
+	height: 100%;
+	position: relative;
+z-index: 100;
+	display: flex;
+	padding: 0px;
+	
+}
+.logimg img{
+	height: 380px;
+	position: absolute;
+	top: 50%;
+	margin-top: -190px;
+	width: 740px;
+	left: 50%;
+	margin-left: -370px;
+}
+.logimg{
+	flex: 1;
+	width: 760px;
+	position: relative;
+}
+#center>div{
+	flex: 1;
+	position: relative;
+}
+#center>div .wxlogin{
+	width:640px ;
+	padding:60px 0;
+	padding-top: 120px;
+	background-color: #fff;
+	margin: auto;
+	position: absolute;
+	margin-top:-200px ;
+	top:40%;
+	left: 50%;
+	margin-left: -320px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#center>div .wxzhuce{
+	width:640px ;
+	padding:30px 0;
+	padding-top: 120px;
+	background-color: #fff;
+	margin: auto;
+	position: absolute;
+	margin-top:-200px ;
+	top:40%;
+	left: 50%;
+	margin-left: -320px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+#center .wxlogin-title span.active{
+	display: inline-block;
+	cursor: pointer;
+	border-bottom:1px solid  #FE7E00;
+	color: #FE7E00;
+}
+#center .wxlogin-title{
+	width:640px ;
+	padding:30px 0;
+	padding-bottom: 0px;
+	background-color: #fff;
+	margin: auto;
+	position: absolute;
+	margin-top:-200px ;
+	top:40%;
+	left: 50%;
+	margin-left: -320px;
+	
+	z-index: 10;
+	/*display: none;*/
+}
+#center .wxlogin-title li{
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+#center>div .wxlogin li{
+	margin-bottom: 19px;
+	color: #3e3e3e;
+	
+	
+}
+#center .wxlogin-title span{
+	font-size: 20px;
+	display: flex;
+	color: #007AC8;
+	display: inline-block;
+	width: 200px;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	
+}
+
+
+#center input[name="password"],#center  input[name="username"]{
+	height: 40px;
+	width: 280px;
+	display: inline-block;
+	border: 1px solid #e4e7e8;
+	outline: none;
+	padding-left: 10px;
+
+}
+#center>div .wxlogin>li input::-webkit-input-placeholder
+
+/*,#center>div:nth-of-type(2)>ul>li input:-ms-input-placeholder*/
+{
+	color: #d1d1d1;
+}
+#center>div .wxlogin>li input:-ms-input-placeholder
+{
+	color: #d1d1d1;
+}
+#center>div .wxlogin>li input::-moz-input-placeholder
+{
+	color: #d1d1d1;
+}
+#center>div .wxlogin>li input:-moz-input-placeholder
+{
+	color: #d1d1d1;
+}
+
+#center .iconStyle{
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	border: 1px solid #e4e7e8;
+	float: left;
+	border-right: 0px;
+	text-align: center;
+}
+#center .iconStyle i{
+	font-size: 25px;
+	color: #8f9091;
+	line-height: 40px;
+	
+}
+#center>div .wxlogin>li input[type="checkbox"]{
+	position: relative;
+	top:2px;
+	border: 1px solid #e4e7e8;
+	outline: none;
+}
+#center>div .wxlogin>li:nth-of-type(3)>span{
+	margin-left: 50px;
+	color: #FE7E00;
+}
+#center>div .wxlogin>li:nth-of-type(3)>span a{
+	color: #FE7E00;
+}
+#center>div .wxlogin>li:last-child>button{
+	display: inline-block;
+	width: 340px;
+	height: 40px;
+	background-color: #028dea;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	font-size: 24px;
+	cursor: pointer;
+	border: 0px solid;
+	outline: none;
+	margin-top: 10px;
+}
+
+#center>div .wxlogin>li:nth-of-type(6){
+	color: #999;
+}
+#center>div .wxlogin>li:nth-of-type(6) i{
+	margin-right: 10px;
+}
+#center>div .wxlogin>li:nth-of-type(6) .iconfont{
+	font-size: 20px;
+	margin-right: 10px;
+}
+#center>div .wxlogin>li:nth-of-type(6) i:nth-of-type(2){
+	color: #2d91d0;
+}
+#center>div .wxlogin>li:nth-of-type(6) i:nth-of-type(3){
+	color: #ff5d4d;
+}
+#center>div .wxlogin>li:nth-of-type(6) i:nth-of-type(4){
+	color: #fe8f00;
+}
+
+#center>div .wxzhuce>li{
+	margin-bottom: 20px;
+	font-size: 14px;
+	color: #484848;
+}
+#center>div .wxzhuce>li a{
+	color: #FE7E00;
+}
+#center>div .wxzhuce>li input[type=text],#center>div .wxzhuce>li input[type=password]{
+	width: 345px;
+	height: 38px;
+	padding-left: 10px;
+	border: 1px solid #e4e7e8;
+	
+}
+#center>div .wxzhuce>li select{
+	width: 358px;
+	height: 38px;
+	padding-left: 10px;
+	border: 1px solid #e4e7e8;
+	line-height: 38px;
+	color: #BFBFBF;
+}
+#center>div .wxzhuce>li select option{
+	color: #666;
+}
+#center>div .wxzhuce>li input::-webkit-input-placeholder{
+	color: #bfbfbf;
+}
+/*#center>div .wxzhuce>li>span:first-child{
+	display: inline-block;
+	width: 70px;
+	text-align: right;
+	padding-right: 10px;
+	
+}*/
+
+#center>div .wxzhuce li span{
+	width: 90px;
+	display: inline-block;
+	text-align: right;
+}
+
+#center>div .wxzhuce>li:last-child button{
+	display: inline-block;
+	width: 345px;
+	height: 40px;
+	border: 0px solid;
+	background-color: #FE7E00;
+	font-size: 24px;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 10px;
+	cursor: pointer;
+}
+#bottom{
+	position: relative;
+	z-index: 3;
+}
+@media screen and (max-height: 950px){
+	body{
+		display: block!important;
+		overflow: scroll;
+	}
+	#center{
+		height: 700px;
+	}
+	
+}
+@media screen and (max-width: 1300px){
+
+	#center{
+		width: 1300px;
+	}
+	#top{
+		width: 1300px;
+	}
+	#bottom{
+		width: 1300px;
+	}
+	body{
+
+		overflow: scroll;
+	}
+}

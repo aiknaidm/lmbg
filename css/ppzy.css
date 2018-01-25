@@ -1,0 +1,145 @@
+#center{
+width: 1200px;
+	margin: auto;
+}
+.anli{
+width: 1200px;
+	height: 50px;
+	background-color: #f3f3f3;
+	border: 1px solid #e9e9e9;
+	margin: auto;
+	margin-top:15px;
+	margin-bottom: 30px;
+	
+}
+.anli li{
+	height: 100%;
+	line-height: 50px;
+	color: #7f7e7e;
+	display: inline-block;
+}
+.anli li:first-child{
+	font-size: 20px;
+	text-align: 50px;
+	margin-left: 20px;
+	color:#454544 ;
+}
+.anli li:last-child{
+	font-size: 14px;
+	float: right;
+	width: 210px;
+	text-align: center;
+}
+.anli li:last-child a{
+	color:#7f7e7e;
+}
+.anli li:last-child a:hover{
+	color: #454544;
+}
+.imgs{
+	margin-bottom: 27px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.imgs li{
+	width: 210px;
+	height: 150px;
+	display: inline-block;
+	background-color: paleturquoise;
+	margin-right:27px ;
+	border: 1px solid #F3F3F3;
+	overflow: hidden;
+	cursor: pointer;
+}
+.imgs li:last-child{
+	/*margin-right:0px ;*/
+}
+.imgs li img{
+	width: 100%;
+	height: 100%;
+	
+}
+.fenye{
+	height: 100px;
+	line-height: 80px;
+}
+.imgs li {
+	margin-bottom: 27px;
+}
+h1{
+				/*visibility: hidden;*/
+				display: inline-block;
+				width: 210px;
+				height: 150px;
+				background-color: rgba(0,0,0,0.6);
+				position: relative;
+				font-size: 20px;
+				text-align: center;
+				padding-top:55px ;
+				color: white;
+				/*top:-152px;*/
+				top:0px;
+				margin: 0px;
+				
+				
+				
+			}
+.imgs li:hover h1{
+	top:-152px;
+}
+.fenye{
+	height: 223px;
+	text-align: center;
+	line-height: 223px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.fenye li{
+	border: 1px solid #e2e2e2;
+	color: #999999;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	display: inline-block;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.xyy{
+	border: 1px solid #e2e2e2;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	display: inline-block;
+	cursor: pointer;
+	cursor: hand;
+	background-color:#999999;
+	color: white;
+}
+.fenye .active{
+	background-color: #1663a7;
+	color: white;
+}
+@media only screen and (max-width:540px ) {
+	#center{
+width: 100%!important;
+overflow: hidden;
+}
+.anli{
+width: 100%!important;
+overflow: hidden;
+}
+.fenye{
+	line-height: inherit;
+}
+.fenye li{
+	margin-bottom: 15px;
+}
+}
